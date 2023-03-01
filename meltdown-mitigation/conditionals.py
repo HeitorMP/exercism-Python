@@ -44,7 +44,6 @@ def reactor_efficiency(voltage, current, theoretical_max_power):
         return "red"
     return "black"
 
-
 def fail_safe(temperature, neutrons_produced_per_second, threshold):
     """Assess and return status code for the reactor.
 
@@ -62,3 +61,5 @@ def fail_safe(temperature, neutrons_produced_per_second, threshold):
     elif (temperature * neutrons_produced_per_second) < threshold * 1.1:
         return "NORMAL"
     return "DANGER"
+
+
