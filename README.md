@@ -23,5 +23,5 @@ Python Track from [exercism.org](https://exercism.org/about)!
 
 
 ## 
-![App Screenshot](https://i.imgur.com/J5oOGuO.png)
+![App Screenshot](https://i.imgur.com/ZpV5fwp.png)
 
